@@ -1,0 +1,24 @@
+{
+  "name": "node.js-mysql",
+  "version": "1.0.0",
+  "description": "This app should work as an inventory list that adds and removes items selected on both the server and the user end.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcrossguitar/node.js-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcrossguitar/node.js-mysql/issues"
+  },
+  "homepage": "https://github.com/jcrossguitar/node.js-mysql#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1",
+    "require": "^2.4.20"
+  }
+}
