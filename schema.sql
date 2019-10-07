@@ -5,7 +5,7 @@ USE bamazonDB;
 
 CREATE TABLE Fender (
   id INT NOT NULL,
-  guitarS VARCHAR(100) NULL,
+  guitars VARCHAR(100) NULL,
   color VARCHAR(100) NULL,
   year INT NOT NULL,
   price DECIMAL(6) NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE Fender (
 
 CREATE TABLE Gibson (
   id INT NOT NULL,
-  guitarS VARCHAR(100) NULL,
+  guitars VARCHAR(100) NULL,
   color VARCHAR(100) NULL,
   year INT(4) NOT NULL,
   price DECIMAL(6) NOT NULL,
@@ -25,11 +25,9 @@ CREATE TABLE Gibson (
 
 CREATE TABLE Accessories (
   id INT NOT NULL,
-  strings VARCHAR(100) NULL,
-  pickups VARCHAR(100) NULL,
+  item VARCHAR(100) NULL,
   brand VARCHAR(100) NOT NULL,
   price DECIMAL(6) NOT NULL,
-  case VARCHAR(100),
   stockLevel INT(3) NULL,
   PRIMARY KEY (id)
 );
